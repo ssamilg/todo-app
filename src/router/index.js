@@ -31,6 +31,11 @@ const router = createRouter({
       path: '/todo',
       name: 'todo',
       component: () => import('../views/ToDoView.vue')
+    },
+    {
+      path: '/createlist',
+      name: 'createlist',
+      component: () => import('../views/CreateListView.vue')
     }
   ]
 })
