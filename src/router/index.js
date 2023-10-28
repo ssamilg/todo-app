@@ -36,6 +36,11 @@ const router = createRouter({
       path: '/createlist',
       name: 'createlist',
       component: () => import('../views/CreateListView.vue')
+    },
+    {
+      path: '/try',
+      name: 'try',
+      component: () => import('../views/CodetryView.vue')
     }
   ]
 })
